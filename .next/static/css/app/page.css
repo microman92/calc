@@ -1,0 +1,142 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/navigation/Navigation.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Navigation_navigation__cN_dv {
+  min-height: 100vh;
+  background: rgb(248, 250, 252);
+  padding: 32px 24px;
+}
+.Navigation_navigation__container__f8wZl {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Navigation_navigation__header__sx5Zy {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.Navigation_navigation__header_title__JmFGs {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(15, 23, 42);
+  margin: 0 0 16px 0;
+  letter-spacing: -0.025em;
+}
+.Navigation_navigation__header_subtitle__XwpFd {
+  font-size: 20px;
+  color: rgb(100, 116, 139);
+  margin: 0;
+  font-weight: 400;
+}
+.Navigation_navigation__content__IMvVH {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .Navigation_navigation__content__IMvVH {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+.Navigation_navigation__category__ACTkL {
+  flex: 1 1 500px;
+  min-width: 500px;
+  max-width: 600px;
+}
+@media (max-width: 768px) {
+  .Navigation_navigation__category__ACTkL {
+    min-width: auto;
+    max-width: none;
+  }
+}
+.Navigation_navigation__category_title__S97nW {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(15, 23, 42);
+  margin: 0 0 24px 0;
+  text-align: center;
+  letter-spacing: -0.025em;
+}
+.Navigation_navigation__category_items__BURVO {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Navigation_navigation__item__u3ub1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 16px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.Navigation_navigation__item__u3ub1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+.Navigation_navigation__item_active__US7rE {
+  background: rgba(59, 130, 246, 0.05);
+  border-color: rgb(59, 130, 246);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+.Navigation_navigation__item_content__nBNWi {
+  flex: 1 1;
+}
+.Navigation_navigation__item_title__BsPpa {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(15, 23, 42);
+  margin: 0 0 8px 0;
+  letter-spacing: -0.025em;
+}
+.Navigation_navigation__item_description__csymH {
+  font-size: 16px;
+  color: rgb(100, 116, 139);
+  margin: 0;
+  line-height: 1.5;
+}
+.Navigation_navigation__item_arrow__X7qz1 {
+  font-size: 24px;
+  color: rgb(59, 130, 246);
+  margin-left: 16px;
+  transition: transform 0.2s ease;
+}
+.Navigation_navigation__item__u3ub1:hover .Navigation_navigation__item_arrow__X7qz1 {
+  transform: translateX(4px);
+}
+@media (max-width: 480px) {
+  .Navigation_navigation__cN_dv {
+    padding: 24px 16px;
+  }
+  .Navigation_navigation__header__sx5Zy {
+    margin-bottom: 32px;
+  }
+  .Navigation_navigation__header_title__JmFGs {
+    font-size: 36px;
+  }
+  .Navigation_navigation__header_subtitle__XwpFd {
+    font-size: 18px;
+  }
+  .Navigation_navigation__category_title__S97nW {
+    font-size: 28px;
+  }
+  .Navigation_navigation__item__u3ub1 {
+    padding: 20px;
+  }
+  .Navigation_navigation__item_title__BsPpa {
+    font-size: 18px;
+  }
+  .Navigation_navigation__item_description__csymH {
+    font-size: 14px;
+  }
+  .Navigation_navigation__item_arrow__X7qz1 {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+}

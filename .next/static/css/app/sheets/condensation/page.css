@@ -1,0 +1,1015 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/HeatLossCalculator.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeatLossCalculator_heatLossCalculator__G95AO {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f7ff 0%, #fafafa 100%);
+  padding: 24px;
+  font-family: inherit;
+}
+.HeatLossCalculator_heatLossCalculator__container__AZ5bi {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid #e5e5e5;
+}
+.HeatLossCalculator_heatLossCalculator__header__xnbzj {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.HeatLossCalculator_heatLossCalculator__header__xnbzj::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 30%;
+}
+.HeatLossCalculator_heatLossCalculator__header_title__DlJge {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.025em;
+  position: relative;
+  z-index: 1;
+}
+.HeatLossCalculator_heatLossCalculator__content__sGKdX {
+  padding: 30px;
+}
+.HeatLossCalculator_heatLossCalculator__section__MGKFB {
+  margin-bottom: 48px;
+}
+.HeatLossCalculator_heatLossCalculator__section__MGKFB:last-child {
+  margin-bottom: 0;
+}
+.HeatLossCalculator_heatLossCalculator__section_title__om35j {
+  font-size: 20px;
+  font-weight: 600;
+  color: #171717;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.025em;
+  position: relative;
+  padding-left: 16px;
+}
+.HeatLossCalculator_heatLossCalculator__section_title__om35j::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 24px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  border-radius: 2px;
+}
+.HeatLossCalculator_heatLossCalculator__grid__XCdLH {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.HeatLossCalculator_heatLossCalculator__grid__XCdLH > * {
+  flex: 1 1 300px;
+}
+@media (max-width: 768px) {
+  .HeatLossCalculator_heatLossCalculator__grid__XCdLH {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .HeatLossCalculator_heatLossCalculator__grid__XCdLH > * {
+    flex: 1 1 auto;
+    min-width: auto;
+  }
+}
+.HeatLossCalculator_heatLossCalculator__field__7Fyc6 {
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  width: 100%;
+  gap: 4px;
+}
+.HeatLossCalculator_heatLossCalculator__field--wide__Ad55S {
+  flex: 1 1 100%;
+  min-width: 100%;
+}
+.HeatLossCalculator_heatLossCalculator__field_label__nVsVU {
+  font-size: 13px;
+  font-weight: 500;
+  color: #525252;
+  margin: 0;
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
+}
+.HeatLossCalculator_heatLossCalculator__field_input__iUGfT {
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #171717;
+  background: #ffffff;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 48px;
+}
+.HeatLossCalculator_heatLossCalculator__field_input__iUGfT::placeholder {
+  color: #a3a3a3;
+}
+.HeatLossCalculator_heatLossCalculator__field_input__iUGfT:hover {
+  border-color: #d4d4d4;
+}
+.HeatLossCalculator_heatLossCalculator__field_input__iUGfT:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  background: #ffffff;
+}
+.HeatLossCalculator_heatLossCalculator__field_input_readonly__Vlnxv {
+  background: #f5f5f5;
+  border-color: #e5e5e5;
+  cursor: not-allowed;
+  color: #525252;
+}
+.HeatLossCalculator_heatLossCalculator__field_input_readonly__Vlnxv:hover {
+  border-color: #e5e5e5;
+}
+.HeatLossCalculator_heatLossCalculator__field_input_readonly__Vlnxv:focus {
+  border-color: #e5e5e5;
+  box-shadow: none;
+}
+.HeatLossCalculator_heatLossCalculator__field_unit__s09KN {
+  font-size: 12px;
+  color: #525252;
+  font-weight: 500;
+  margin-top: 4px;
+  text-align: right;
+}
+.HeatLossCalculator_heatLossCalculator__field_group___7F2p {
+  display: flex;
+  gap: 8px;
+}
+.HeatLossCalculator_heatLossCalculator__field_group___7F2p .HeatLossCalculator_heatLossCalculator__field_input__iUGfT {
+  flex: 1 1;
+}
+.HeatLossCalculator_heatLossCalculator__field_group___7F2p .HeatLossCalculator_heatLossCalculator__button__3Mp1z {
+  flex-shrink: 0;
+  min-width: auto;
+  padding: 8px 20px;
+}
+.HeatLossCalculator_heatLossCalculator__field_row__m_TvP {
+  display: flex;
+  gap: 10px;
+}
+.HeatLossCalculator_heatLossCalculator__field_row_item__brNvg {
+  display: flex;
+  flex-direction: column;
+}
+.HeatLossCalculator_heatLossCalculator__button__3Mp1z {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  min-height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.HeatLossCalculator_heatLossCalculator__button__3Mp1z::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: width 150ms cubic-bezier(0.4, 0, 0.2, 1), height 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.HeatLossCalculator_heatLossCalculator__button__3Mp1z:active::before {
+  width: 300px;
+  height: 300px;
+}
+.HeatLossCalculator_heatLossCalculator__button__3Mp1z > * {
+  position: relative;
+  z-index: 1;
+}
+.HeatLossCalculator_heatLossCalculator__button__3Mp1z:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+.HeatLossCalculator_heatLossCalculator__button__3Mp1z:disabled {
+  cursor: not-allowed;
+  opacity: 60%;
+}
+.HeatLossCalculator_heatLossCalculator__button_primary__kwJWB {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.HeatLossCalculator_heatLossCalculator__button_primary__kwJWB:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
+}
+.HeatLossCalculator_heatLossCalculator__button_primary__kwJWB:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.HeatLossCalculator_heatLossCalculator__button_success__x7VOc {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.HeatLossCalculator_heatLossCalculator__button_success__x7VOc:hover:not(:disabled) {
+  background: linear-gradient(135deg, #059669, #047857);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
+}
+.HeatLossCalculator_heatLossCalculator__button_success__x7VOc:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.HeatLossCalculator_heatLossCalculator__button_secondary__sKWJM {
+  background: #f5f5f5;
+  color: #171717;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.HeatLossCalculator_heatLossCalculator__button_secondary__sKWJM:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #d4d4d4;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.HeatLossCalculator_heatLossCalculator__button_secondary_disabled__RzGSe {
+  background: #f5f5f5;
+  color: #a3a3a3;
+  border-color: #e5e5e5;
+  cursor: not-allowed;
+}
+.HeatLossCalculator_heatLossCalculator__button_secondary_disabled__RzGSe:hover {
+  background: #f5f5f5;
+  border-color: #e5e5e5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transform: none;
+}
+.HeatLossCalculator_heatLossCalculator__controls__ybCoz {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #e5e5e5;
+}
+@media (max-width: 768px) {
+  .HeatLossCalculator_heatLossCalculator__controls__ybCoz {
+    flex-direction: column;
+  }
+  .HeatLossCalculator_heatLossCalculator__controls__ybCoz .HeatLossCalculator_heatLossCalculator__button__3Mp1z {
+    width: 100%;
+  }
+}
+.HeatLossCalculator_heatLossCalculator__section__MGKFB:has(.HeatLossCalculator_heatLossCalculator__field_input__iUGfT[readonly]) .HeatLossCalculator_heatLossCalculator__field_input__iUGfT {
+  font-weight: 600;
+  background: linear-gradient(135deg, #f0f7ff, #fafafa);
+  border-color: #bae0ff;
+  color: #1e3a8a;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput__4_enR {
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #171717;
+  background: #ffffff;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 48px;
+  width: 100%;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput__4_enR::placeholder {
+  color: #a3a3a3;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput__4_enR:hover {
+  border-color: #d4d4d4;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput__4_enR:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  background: #ffffff;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput--readonly__SI9Lc {
+  background: #f5f5f5;
+  border-color: #e5e5e5;
+  cursor: not-allowed;
+  color: #525252;
+  font-weight: 600;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput--readonly__SI9Lc:hover {
+  border-color: #e5e5e5;
+}
+.HeatLossCalculator_heatLossCalculator__fieldInput--readonly__SI9Lc:focus {
+  border-color: #e5e5e5;
+  box-shadow: none;
+}
+.HeatLossCalculator_heatLossCalculator__results__FoH_b {
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.HeatLossCalculator_heatLossCalculator__result__9Di0d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.HeatLossCalculator_heatLossCalculator__result__9Di0d:last-child {
+  border-bottom: none;
+}
+.HeatLossCalculator_heatLossCalculator__result_label__6hTMR {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  text-transform: lowercase;
+  flex: 1 1;
+}
+.HeatLossCalculator_heatLossCalculator__result_value__QKNG8 {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
+}
+.HeatLossCalculator_heatLossCalculator__result_number__qgdwY {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  background: #ffffff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  min-width: 80px;
+  text-align: right;
+}
+.HeatLossCalculator_heatLossCalculator__result_unit__5JckC {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.HeatLossCalculator_heatLossCalculator__fields__iO502 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  gap: 30px;
+}
+
+.HeatLossCalculator_heatLossCalculator__field__7Fyc6:nth-child(4) {
+  max-width: 360px;
+}
+
+.HeatLossCalculator_helpText__cBRpg {
+  display: block;
+  font-size: 11px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.HeatLossCalculator_helpTextTop__yTJ4W {
+  display: block;
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.HeatLossCalculator_helpTextTall__jFLQO {
+  display: block;
+  font-size: 11px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.HeatLossCalculator_fade-in__WbiQ2 {
+  animation: HeatLossCalculator_fadeIn__wCfWH 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.HeatLossCalculator_slide-up__xzUn6 {
+  animation: HeatLossCalculator_slideUp__dVgEO 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes HeatLossCalculator_fadeIn__wCfWH {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes HeatLossCalculator_slideUp__dVgEO {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.HeatLossCalculator_loading__r___x {
+  position: relative;
+  overflow: hidden;
+}
+.HeatLossCalculator_loading__r___x::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: HeatLossCalculator_shimmer__8Fl1_ 1.5s infinite;
+}
+
+@keyframes HeatLossCalculator_shimmer__8Fl1_ {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .HeatLossCalculator_heatLossCalculator__G95AO {
+    padding: 16px;
+  }
+  .HeatLossCalculator_heatLossCalculator__content__sGKdX {
+    padding: 32px;
+  }
+  .HeatLossCalculator_heatLossCalculator__header__xnbzj {
+    padding: 24px;
+  }
+  .HeatLossCalculator_heatLossCalculator__header_title__DlJge {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .HeatLossCalculator_heatLossCalculator__G95AO {
+    padding: 12px;
+  }
+  .HeatLossCalculator_heatLossCalculator__content__sGKdX {
+    padding: 24px;
+  }
+  .HeatLossCalculator_heatLossCalculator__header__xnbzj {
+    padding: 20px;
+  }
+  .HeatLossCalculator_heatLossCalculator__header_title__DlJge {
+    font-size: 18px;
+  }
+  .HeatLossCalculator_heatLossCalculator__section__MGKFB {
+    margin-bottom: 32px;
+  }
+  .HeatLossCalculator_heatLossCalculator__section_title__om35j {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .HeatLossCalculator_heatLossCalculator__button__3Mp1z {
+    padding: 14px 24px;
+    font-size: 14px;
+    min-height: 44px;
+  }
+  .HeatLossCalculator_heatLossCalculator__field_input__iUGfT {
+    padding: 14px 16px;
+    font-size: 16px;
+    min-height: 44px;
+  }
+  .HeatLossCalculator_heatLossCalculator__fieldInput__4_enR {
+    padding: 14px 16px;
+    font-size: 16px;
+    min-height: 44px;
+  }
+}
+@media (max-width: 480px) {
+  .HeatLossCalculator_heatLossCalculator__G95AO {
+    padding: 8px;
+  }
+  .HeatLossCalculator_heatLossCalculator__container__AZ5bi {
+    border-radius: 16px;
+  }
+  .HeatLossCalculator_heatLossCalculator__content__sGKdX {
+    padding: 16px;
+  }
+  .HeatLossCalculator_heatLossCalculator__header__xnbzj {
+    padding: 16px;
+    border-radius: 16px 16px 0 0;
+  }
+  .HeatLossCalculator_heatLossCalculator__grid__XCdLH {
+    gap: 12px;
+  }
+  .HeatLossCalculator_heatLossCalculator__section__MGKFB {
+    margin-bottom: 24px;
+  }
+  .HeatLossCalculator_heatLossCalculator__controls__ybCoz {
+    gap: 12px;
+    margin-top: 24px;
+    padding-top: 24px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/Modal.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.Modal_modal__muTf8 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 24px;
+  animation: Modal_modalFadeIn__uDE5_ 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Modal_modal__overlay__xCUSh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.Modal_modal__container__Ncuzj {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 672px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #e5e5e5;
+  animation: Modal_modalSlideUp__v8fOr 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (max-width: 768px) {
+  .Modal_modal__container__Ncuzj {
+    max-width: 100%;
+    margin: 16px;
+    max-height: calc(100vh - 32px);
+    border-radius: 16px;
+  }
+}
+.Modal_modal__header__5NnaM {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.Modal_modal__header__5NnaM::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 30%;
+}
+.Modal_modal__header_title__HN8As {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.025em;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .Modal_modal__header__5NnaM {
+    padding: 20px;
+  }
+  .Modal_modal__header_title__HN8As {
+    font-size: 18px;
+  }
+}
+.Modal_modal__content__VZYyl {
+  padding: 32px;
+  max-height: calc(90vh - 200px);
+  overflow-y: auto;
+}
+.Modal_modal__content__VZYyl::-webkit-scrollbar {
+  width: 6px;
+}
+.Modal_modal__content__VZYyl::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 3px;
+}
+.Modal_modal__content__VZYyl::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 3px;
+}
+.Modal_modal__content__VZYyl::-webkit-scrollbar-thumb:hover {
+  background: #737373;
+}
+@media (max-width: 768px) {
+  .Modal_modal__content__VZYyl {
+    padding: 20px;
+    max-height: calc(100vh - 160px);
+  }
+}
+.Modal_modal__section__fHvsN {
+  margin-bottom: 32px;
+}
+.Modal_modal__section__fHvsN:last-child {
+  margin-bottom: 0;
+}
+.Modal_modal__section_title___vqmM {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171717;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.025em;
+  position: relative;
+  padding-left: 16px;
+}
+.Modal_modal__section_title___vqmM::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 20px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  border-radius: 2px;
+}
+@media (max-width: 768px) {
+  .Modal_modal__section__fHvsN {
+    margin-bottom: 24px;
+  }
+  .Modal_modal__section_title___vqmM {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}
+.Modal_modal__grid__AwtVU {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.Modal_modal__grid__AwtVU > * {
+  flex: 1 1 250px;
+  min-width: 250px;
+}
+@media (max-width: 768px) {
+  .Modal_modal__grid__AwtVU {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .Modal_modal__grid__AwtVU > * {
+    flex: 1 1 auto;
+    min-width: auto;
+  }
+}
+.Modal_modal__field__xpn_H {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.Modal_modal__field_label__25XkF {
+  font-size: 14px;
+  font-weight: 500;
+  color: #525252;
+  margin: 0;
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
+}
+.Modal_modal__field_input__UbD_X {
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #171717;
+  background: #ffffff;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 48px;
+}
+.Modal_modal__field_input__UbD_X::placeholder {
+  color: #a3a3a3;
+}
+.Modal_modal__field_input__UbD_X:hover {
+  border-color: #d4d4d4;
+}
+.Modal_modal__field_input__UbD_X:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  background: #ffffff;
+}
+.Modal_modal__field_input_readonly__EvBTu {
+  background: #f5f5f5;
+  border-color: #e5e5e5;
+  cursor: not-allowed;
+  color: #525252;
+}
+.Modal_modal__field_input_readonly__EvBTu:hover {
+  border-color: #e5e5e5;
+}
+.Modal_modal__field_input_readonly__EvBTu:focus {
+  border-color: #e5e5e5;
+  box-shadow: none;
+}
+@media (max-width: 768px) {
+  .Modal_modal__field_input__UbD_X {
+    padding: 14px 16px;
+    min-height: 44px;
+  }
+}
+.Modal_modal__field_unit__JyOhl {
+  font-size: 12px;
+  color: #525252;
+  font-weight: 500;
+  margin-top: 4px;
+  text-align: right;
+}
+.Modal_modal__field_radioGroup__vtokZ {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 8px;
+}
+@media (max-width: 768px) {
+  .Modal_modal__field_radioGroup__vtokZ {
+    gap: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .Modal_modal__field_radioGroup__vtokZ {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.Modal_modal__field_radio__keXeR {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Modal_modal__field_radio__keXeR:hover {
+  background: #f5f5f5;
+}
+.Modal_modal__field_radio_input__HgEiV {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: #3b82f6;
+}
+.Modal_modal__field_radio_label__1TKjU {
+  font-size: 16px;
+  color: #171717;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.Modal_modal__button__8nQCh {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  min-height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.Modal_modal__button__8nQCh::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: width 150ms cubic-bezier(0.4, 0, 0.2, 1), height 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.Modal_modal__button__8nQCh:active::before {
+  width: 300px;
+  height: 300px;
+}
+.Modal_modal__button__8nQCh > * {
+  position: relative;
+  z-index: 1;
+}
+.Modal_modal__button__8nQCh:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+.Modal_modal__button__8nQCh:disabled {
+  cursor: not-allowed;
+  opacity: 60%;
+}
+.Modal_modal__button_primary__pnoj0 {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.Modal_modal__button_primary__pnoj0:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
+}
+.Modal_modal__button_primary__pnoj0:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.Modal_modal__button_secondary___JBii {
+  background: #f5f5f5;
+  color: #171717;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.Modal_modal__button_secondary___JBii:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #d4d4d4;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.Modal_modal__button_secondary_disabled__Tvaxr {
+  background: #f5f5f5;
+  color: #a3a3a3;
+  border-color: #e5e5e5;
+  cursor: not-allowed;
+}
+.Modal_modal__button_secondary_disabled__Tvaxr:hover {
+  background: #f5f5f5;
+  border-color: #e5e5e5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transform: none;
+}
+@media (max-width: 768px) {
+  .Modal_modal__button__8nQCh {
+    padding: 14px 24px;
+    font-size: 14px;
+    min-height: 44px;
+  }
+}
+.Modal_modal__controls__4a1cB {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+}
+@media (max-width: 768px) {
+  .Modal_modal__controls__4a1cB {
+    flex-direction: column-reverse;
+    margin-top: 24px;
+    padding-top: 20px;
+  }
+  .Modal_modal__controls__4a1cB .Modal_modal__button__8nQCh {
+    width: 100%;
+  }
+}
+
+@keyframes Modal_modalFadeIn__uDE5_ {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Modal_modalSlideUp__v8fOr {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.Modal_modal__close__h8QdO {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
+}
+.Modal_modal__close__h8QdO:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+.Modal_modal__close__h8QdO:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+.Modal_modal__close__h8QdO::before {
+  content: "×";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1;
+}
+@media (max-width: 768px) {
+  .Modal_modal__close__h8QdO {
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+  }
+  .Modal_modal__close__h8QdO::before {
+    font-size: 20px;
+  }
+}
+
+.Modal_helpText__ZxO4d {
+  display: block;
+  font-size: 11px;
+  color: #6b7280;
+  margin-bottom: 6px;
+  height: 33px;
+}
+
+.Modal_helpTextTop__njvEw {
+  display: block;
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 6px;
+  height: 33px;
+}
+
+@media (max-width: 480px) {
+  .Modal_modal__muTf8 {
+    padding: 16px;
+  }
+  .Modal_modal__container__Ncuzj {
+    border-radius: 12px;
+  }
+  .Modal_modal__content__VZYyl {
+    padding: 16px;
+  }
+  .Modal_modal__header__5NnaM {
+    padding: 16px;
+    border-radius: 12px 12px 0 0;
+  }
+  .Modal_modal__grid__AwtVU {
+    gap: 12px;
+  }
+  .Modal_modal__section__fHvsN {
+    margin-bottom: 20px;
+  }
+  .Modal_modal__controls__4a1cB {
+    gap: 12px;
+    margin-top: 20px;
+    padding-top: 16px;
+  }
+}
