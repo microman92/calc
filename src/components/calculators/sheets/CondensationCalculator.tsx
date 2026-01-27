@@ -145,7 +145,7 @@ const SheetsCondensationCalculator: React.FC = () => {
                   <span className={styles.helpText} style={{ height: 'auto' }}>thickness to prevent condensation (Tsurf ≥ Tdew)</span>
                   <input
                     type="text"
-                    value={isMinThicknessExceeded ? '-' : results.minimumThickness.toFixed(1)}
+                    value={results.minimumThickness.toFixed(1)}
                     readOnly
                     className={`${styles.heatLossCalculator__fieldInput} ${styles.heatLossCalculator__fieldInput}--readonly`}
                   />
